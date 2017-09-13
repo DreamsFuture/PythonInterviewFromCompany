@@ -26,3 +26,9 @@ import io
 with io.open('result.txt', encoding='utf-8') as file:
     words = [word for line in file for word in line.split()]
 print( "\n".join(words))
+
+
+
+# 相关信息可以参考：https://stackoverflow.com/questions/33294213/how-to-decode-unicode-in-a-chinese-text
+
+# search google with "Calculates the character number in the Chinese file encoded by "utf-8""
